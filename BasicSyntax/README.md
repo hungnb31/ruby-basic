@@ -1,7 +1,11 @@
 To print out something in Ruby, simply use `puts` method
+We can also use `print` but it slightly difference. `puts` method add a new line but `print` not do that
 
 ```ruby
-puts("Hello World!)
+puts("Hello World!")
+print("Hello World!")
+print "Hello World!" # still valid
+puts "Hello World!" # still valid
 ```
 
 ## Whitespace in Ruby
